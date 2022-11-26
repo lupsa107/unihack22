@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "969159187095",
+    "firebase_url": "https://unihack2022-d5172-default-rtdb.firebaseio.com",
+    "project_id": "unihack2022-d5172",
+    "storage_bucket": "unihack2022-d5172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969159187095:android:b462bff1fcc237244127d2",
+        "android_client_info": {
+          "package_name": "com.example.unihack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969159187095-sjamb0jqi9g75matmq28o41o9c13ctho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNc5agMtBFNrRTx4SrcqaBJwqzjgUNIf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969159187095-sjamb0jqi9g75matmq28o41o9c13ctho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969159187095:android:9077f354b40631154127d2",
+        "android_client_info": {
+          "package_name": "com.example.unihack2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969159187095-sjamb0jqi9g75matmq28o41o9c13ctho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNc5agMtBFNrRTx4SrcqaBJwqzjgUNIf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969159187095-sjamb0jqi9g75matmq28o41o9c13ctho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
