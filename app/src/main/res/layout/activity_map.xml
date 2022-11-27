@@ -16,6 +16,7 @@
         android:id="@+id/cardView"
         android:layout_width="399dp"
         android:layout_height="286dp"
+        android:backgroundTint="@color/white"
         android:layout_marginStart="12dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="12dp"
@@ -28,14 +29,36 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ceva sa mearga ca si cum"
+            android:text="Iulius Park"
             android:id="@+id/textview5"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="bottom|left"
             android:textSize="27dp"
             ></TextView>
-        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Fee:2€"
+            android:textSize="27dp"
+            android:layout_gravity="bottom|right"
+
+            />
+
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_gravity="center|top"
+                app:srcCompat="@drawable/parking" />
         </FrameLayout>
 
     </androidx.cardview.widget.CardView>

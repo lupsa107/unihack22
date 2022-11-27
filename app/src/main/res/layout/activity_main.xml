@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="682dp"
+        android:layout_height="1108dp"
+        android:background="#FBC562"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
+        app:srcCompat="@drawable/background1" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -16,7 +29,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.181" />
+        app:layout_constraintVertical_bias="0.385" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="166dp"
+        android:backgroundTint="#000000"
+        android:text="Log in"
+        android:textColor="@color/white"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button2"
@@ -31,8 +61,10 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button1"
@@ -49,21 +81,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="342dp"
-        android:backgroundTint="#00FFFFFF"
-        android:text="Log in"
-        android:textColor="@color/black"
-        app:iconTint="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="283dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carrrrr" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

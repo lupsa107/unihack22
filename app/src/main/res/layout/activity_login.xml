@@ -6,11 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="682dp"
+        android:layout_height="1108dp"
+        android:background="#FBC562"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
+        app:srcCompat="@drawable/background1" />
+
     <EditText
         android:id="@+id/email2"
         android:layout_width="277dp"
         android:layout_height="45dp"
         android:ems="10"
+        android:textColor="@color/black"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,6 +42,7 @@
         android:layout_height="36dp"
         android:layout_marginTop="10dp"
         android:text="Password"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,6 +58,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="22dp"
         android:ems="10"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,6 +74,7 @@
         android:layout_marginTop="22dp"
         android:text="Email "
         android:textSize="24sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.132"
@@ -71,20 +89,13 @@
         android:layout_height="37dp"
 
 
-        android:backgroundTint="#D5979797"
+        android:backgroundTint="#66ff99"
         android:text="Back"
-        android:textColor="@color/black"
-        android:textSize="10sp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="445dp"
-        android:layout_height="208dp"
-        android:layout_marginTop="156dp"
-        android:scaleType="fitXY"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password2"
-        app:srcCompat="?android:attr/panelFullBackground" />
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
         android:id="@+id/login2"
@@ -102,16 +113,17 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="121dp"
-        android:layout_height="44dp"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
         android:backgroundTint="#66ff99"
         android:text="Forgot password"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912"
+        app:layout_constraintVertical_bias="0.781"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -121,9 +133,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
         android:text="Login"
-        android:textColor="#66ff99"
+        android:textColor="@color/black"
         app:autoSizeTextType="uniform"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
