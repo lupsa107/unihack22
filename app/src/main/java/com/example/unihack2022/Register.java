@@ -29,13 +29,14 @@ public class    Register extends AppCompatActivity implements View.OnClickListen
     private EditText editTextFullName, editTextAge, editTextEmail, editTextPassword;
     private ProgressBar progressBar;
     private FirebaseAuth mAuth;
+    Button button5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         mAuth = FirebaseAuth.getInstance();
         banner=(TextView) findViewById(R.id.Banner);
-
+button5=findViewById(R.id.button5);
         banner.setOnClickListener(this);
         registerUser = (Button) findViewById(R.id.button3);
         registerUser.setOnClickListener(this);
@@ -43,6 +44,16 @@ public class    Register extends AppCompatActivity implements View.OnClickListen
         editTextAge = (EditText) findViewById(R.id.Age);
         editTextEmail = (EditText) findViewById(R.id.Email);
         editTextPassword = (EditText) findViewById(R.id.Password);
+
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(Register.this, MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
     @Override
     public void onClick(View view) {

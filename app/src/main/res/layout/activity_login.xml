@@ -89,10 +89,10 @@
         android:layout_height="37dp"
 
 
-        android:backgroundTint="#66ff99"
+        android:backgroundTint="#BC1AA699"
         android:text="Back"
 
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="11sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
@@ -101,8 +101,9 @@
         android:id="@+id/login2"
         android:layout_width="156dp"
         android:layout_height="61dp"
-        android:backgroundTint="#66ff99"
+        android:backgroundTint="#BC1AA699"
         android:text="LOGIN"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,9 +116,10 @@
         android:id="@+id/button4"
         android:layout_width="150dp"
         android:layout_height="36dp"
-        android:backgroundTint="#66ff99"
+        android:backgroundTint="#BC1AA699"
         android:text="Forgot password"
         android:textSize="10dp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

@@ -6,12 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".Register">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="682dp"
+        android:layout_height="1108dp"
+        android:background="#FBC562"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
+        app:srcCompat="@drawable/background1" />
+
     <EditText
         android:id="@+id/Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.181"
@@ -60,13 +74,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.648" />
 
+
+    <Button
+        android:id="@id/button5"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+
+
+        android:backgroundTint="#BC1AA699"
+        android:text="Back"
+
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
     <Button
         android:id="@+id/button3"
         android:layout_width="156dp"
         android:layout_height="61dp"
-        android:backgroundTint="#66ff99"
+        android:backgroundTint="#BC1AA699"
         android:text="Register"
-        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -79,9 +109,9 @@
         android:layout_width="187dp"
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="52dp"
         android:text="Register"
-        android:textColor="#66ff99"
+        android:textColor="@color/black"
         app:autoSizeTextType="uniform"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -92,6 +122,7 @@
         android:layout_height="wrap_content"
         android:text="Name"
         android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.094"
@@ -104,6 +135,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,6 +150,7 @@
         android:layout_height="wrap_content"
         android:text="Age"
         android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.089"
@@ -130,6 +163,7 @@
         android:layout_width="127dp"
         android:layout_height="25dp"
         android:text="Password"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:autoSizeTextType="none"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -139,13 +173,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.592" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="445dp"
-        android:layout_height="208dp"
-        android:layout_marginTop="68dp"
-        android:scaleType="fitXY"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Password"
-        app:srcCompat="?android:attr/panelFullBackground" />
 </androidx.constraintlayout.widget.ConstraintLayout>

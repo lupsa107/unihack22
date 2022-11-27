@@ -17,7 +17,21 @@
     <string name="clamp_latlng_reset">Reset LatLng Bounds</string>
     <string name="clamp_min_zoom">MinZoom++</string>
     <string name="clamp_max_zoom">MaxZoom--</string>
+
+    <style name="ImageView.Round" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
     <string name="clamp_zoom_reset">Reset Zoom Bounds</string>
+
+    <style name="ImageView.Corner" parent="">
+        <item name="cornerSizeTopRight">50%</item>
+        <item name="cornerSizeTopLeft">50%</item>
+        <item name="cornerSizeBottomLeft">50%</item>
+        <item name="cornerSizeBottomRight">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
 
     <string name="clear_map">Clear</string>
     <string name="clickable">Clickable</string>

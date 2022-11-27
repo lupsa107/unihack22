@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:text="ParkIT"
         android:textSize="50sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,6 +46,7 @@
         app:iconTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
@@ -66,6 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0" />
 
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -74,24 +77,29 @@
         android:layout_marginTop="656dp"
         android:layout_marginEnd="47dp"
         android:layout_marginBottom="27dp"
-        android:text="Button"
+        android:backgroundTint="#BC1AA699"
+        android:text="Enter"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="283dp"
+        android:layout_width="218dp"
         android:layout_height="218dp"
         android:layout_marginStart="64dp"
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="38dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/carrrrr" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/parklogoo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Iulius Park"
+            android:textColor="@color/black"
             android:id="@+id/textview5"
             android:layout_marginLeft="16dp"
             android:layout_gravity="bottom|left"
@@ -40,6 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
+            android:textColor="@color/black"
             android:text="Fee:2€"
             android:textSize="27dp"
             android:layout_gravity="bottom|right"
@@ -62,5 +64,15 @@
         </FrameLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/parkbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/parklogoo"
+        />
+
 
 </RelativeLayout>
