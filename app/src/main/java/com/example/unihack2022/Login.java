@@ -24,6 +24,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     private EditText editTextEmail, editTextPassword;
     private Button signIn, forgotpass;
     private FirebaseAuth mAuth;
+    Button button4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,11 +39,22 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         forgotpass =(Button)findViewById(R.id.button4);
         forgotpass.setOnClickListener(this);
         mAuth= FirebaseAuth.getInstance();
+        button4=findViewById(R.id.button4);
         /*if(mAuth.getCurrentUser()!=null){
             startActivity(new Intent(getBaseContext(), MainActivity.class));
             finish();
         }*/
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Login.this, MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {

@@ -64,6 +64,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.267" />
 
+
+    <Button
+        android:id="@id/button4"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+
+
+        android:backgroundTint="#D5979797"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="445dp"
@@ -101,17 +113,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.912"
         tools:ignore="TouchTargetSizeCheck" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="445dp"
-        android:layout_height="208dp"
-        android:layout_marginBottom="26dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="?android:attr/panelFullBackground" />
 
     <TextView
         android:id="@+id/Login"
